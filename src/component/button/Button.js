@@ -10,7 +10,7 @@ export const Button  = () => {
         
     }
     const decCount = () => {
-        dispatch(decreaseCount)
+        dispatch(decreaseCount())
 
     }
     return (
